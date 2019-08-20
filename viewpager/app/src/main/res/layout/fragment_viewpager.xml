@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+    <LinearLayout
+        android:background="@drawable/bg_container_corner_16_solid_red"
+        android:foreground="?selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:text="회원가입"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bg_container_corner_16_solid_red_ripple">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="회원가입" />
+    </LinearLayout>
+
+</LinearLayout>
